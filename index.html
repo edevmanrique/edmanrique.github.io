@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/favicon2.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="./css/form-tablet.css" media="screen and (max-width: 1370px)">
+    <link rel="stylesheet" href="./css/form-stablet.css" media="screen and (max-width: 980px)">
+    <link rel="stylesheet" href="./css/form-sstablet.css" media="screen and (max-width: 830px)">
+    <link rel="stylesheet" href="./css/form-bcel.css" media="screen and (max-width: 510px)">
+    <link rel="stylesheet" href="./css/form-cel.css" media="screen and (max-width: 390px)">
+    <title>Comics +</title>
 </head>
+
 <body>
-    <header>
-
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><img src="https://i.ibb.co/xHFh7LC/hamburger.png" alt="burguer menu logo"></label>
-
-        <nav>
-            <ul>
-                <li class="nav__li1"><a href="#">Inicio</a></li>
-                <li class="nav__li2"><a href="#">¿Quienes somos?</a></li>
-                <li class="nav__li3"><a href="#">Contacto</a></li>
-                <li class="nav__li4"><a href="#">Acerca de</a></li>
-            </ul>
-        </nav>
-
-        <img src="https://userscontent2.emaze.com/images/c0c93aa8-3cf1-4a87-8851-a3d15ea6e7f0/4ca7f95d-d57e-47df-9898-8008b159d6da.png" alt="trululu logo">
-
+    <header class="header">
+        <img class="header__logo"
+            src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png"
+            alt="">
     </header>
-    <main>
-        <section>
-            <article class="article_1"><img src="https://i.ibb.co/23SghLv/Banner-Trululu-Kilos.png" alt="trululu_container"></article>
-            <article class="article_2"><img src="https://i.ibb.co/V9BXHdF/Banner-Bianchi-Collection-2.png" alt="bianchi_container"></article>
-            <article class="article_3"><img src="https://i.ibb.co/PjqVsCM/Banner-barra-de-cereal-2-2.png" alt="supercoco_container"></article>
-            <article class="article_4"><img src="https://i.ibb.co/NxP1V3g/MAILING-ORIGAMI-04.png" alt="next_container"></article>
+    <section class="login">
+        <section class="login__container">
+            <h2 class="login__titulo ml">Inicia Sesión</h2>
+            <form class="login__datos">
+                <input type="text" class="login__input-user f-element input" placeholder="Correo...">
+                <input type="password" class="login__input-pass f-element input" placeholder="Contraseña...">
+                <button class="login__pass f-element">Iniciar Sesión</button>
+                <div class="login__remember">
+                    <label for="cbox" class="label">
+                        <input type="checkbox" id="cbox" class="cbox" value="checkbox"> Recuerdame
+                    </label>
+                    <a class="link" href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__redes-sociales ml">
+                <div class="google">
+                    <img src="./img/Google.png" alt="">Inicia sesión con Google
+                </div>
+                <div class="twitter">
+                    <img src="./img/twitter.png" alt="">Inicia sesión con Twitter
+                </div>
+            </section>
+            <div class="login__cuenta">
+                <p class="login__registro">¿No tienes ninguna cuenta? Regístrate <a href="./register.html">aquí</a>. </p>
+            </div>
         </section>
-        <!--:D-->
-    </main>
+    </section>
+
+    <footer class="terms">
+        <p><a href="#">Términos de uso</a></p>
+        <p><a href="#">Declaración de privacidad</a></p>
+        <p><a href="#">Centro de ayuda</a></p>
+    </footer>
 </body>
+
 </html>
