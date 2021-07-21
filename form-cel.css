@@ -1,0 +1,12 @@
+body{
+    height: 108vh;
+    background-size: cover;
+}
+
+.login__container{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    box-shadow: none;
+}
