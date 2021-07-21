@@ -1,0 +1,33 @@
+.carrusel__img{
+    width: 150px;
+    height: 210px;
+}
+
+.carrusel__item{
+    width: 150px;
+    height: 210px;
+}
+
+.carrusel__details{
+    top: 130px;
+}
+
+.terms{
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.buscador__titulo{
+    font-size: 22px;
+}
+
+.carrusel__titulo{
+    font-size: 18px;
+}
+
+.buscador__campo{
+    font-size: 18px;
+    font-weight: bolder;
+    height: 45px;
+}
