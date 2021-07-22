@@ -6,7 +6,7 @@
 body{
     margin: 0;
     background-color: #4158D0;
-    background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
     font-family: 'Mulish', sans-serif;
     font-weight: bolder;
 }
